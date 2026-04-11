@@ -1,3 +1,5 @@
-list = [1, 2]
+example_array = [1, 2, 3, 4]
+print(example_array)
 
-print(list)
+example_array[0] = 11
+print(example_array)
