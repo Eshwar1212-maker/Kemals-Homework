@@ -22,7 +22,7 @@ colors = ["red", "blue", "green"]
 # Challenge 7
 ### Start with this list:
 foods = ["pizza", "tacos", "sushi", "burger", "pasta"]
-### Ask the user: "Which spot do you want to change? (0-4)"
+### Ask the user: "Which index do you want to change? (0-4)"
 ### Ask the user: "What food do you want instead?"
 ### Replace the food at that spot with their new food
 ### Print the updated list
