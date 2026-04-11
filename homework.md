@@ -4,8 +4,6 @@
 ### Print the LAST food in the list
 ### (Remember: list indexes start at 0)
 
-
-# Challenge 5
 # Challenge 5
 ### Start with this list:
 games = ["Zelda", "Mario", "Pokemon", "Sonic", "Kirby"]
