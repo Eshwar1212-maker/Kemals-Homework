@@ -34,4 +34,4 @@ inventory = ["sword", "shield", "potion"]
 board = ["_", "_", "_"]
 ### Ask the user to pick a spot: 0, 1, or 2
 ### Put an "X" in whatever spot they picked
-### Print the board afteåååååå
+### Print the board after
