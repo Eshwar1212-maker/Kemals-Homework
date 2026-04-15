@@ -83,6 +83,32 @@ Game Over!
 
 # Challenge 5
 
+Right now your Tic-Tac-Toe game has a problem.
+
+If Player X picks spot 4, then Player O can ALSO pick spot 4 and steal it.
+
+That's not fair!
+
+Fix it:
+- When a player picks a spot, check if it's empty first
+- Empty spots have "_" in them
+- If the spot already has an X or O, tell them "That spot is taken! Try again."(use an if statement to check the value of the current spot)
+- Keep asking until they pick an empty spot
+
+
+Example:
+X, pick a spot (0-8): 4
+(X goes in spot 4)
+
+O, pick a spot (0-8): 4
+That spot is taken! Try again.
+O, pick a spot (0-8): 4
+That spot is taken! Try again.
+O, pick a spot (0-8): 2
+(O goes in spot 2)
+
+# Challenge 6 (bonus question)
+
 Continue from where you left off in the tic tac toe game you created, now you have to track wins
 
 ROWS (3 in a row across):
