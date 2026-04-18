@@ -1,87 +1,4 @@
-# Challenge 1
-
-Ask the user to pick a number
-Use a while loop to count down to 0
-Print each number
-When it hits 0, print "Blastoff!"
-
-Example:
-Pick a number: 5
-5
-4
-3
-2
-1
-Blastoff!
-
-# Challenge 2
-
-Set a secret number (like 7)
-Use a while loop to keep asking "Guess the number:"
-If they guess wrong, print "Try again"
-If they guess right, print "You got it!" and stop the loop
-
-Example output:
-
-Example:
-Guess the number: 3
-Try again
-Guess the number: 9
-Try again
-Guess the number: 7
-You got it!
-
-
-# Challenge 3
-
-Start with an empty list called cart
-Use a while loop to keep asking "Add an item (or type 'done'):"
-If they type something, add it to the cart
-If they type "done", stop the loop
-At the end, print each item in the cart with a number next to it
-
-Example:
-Add an item (or type 'done'): apple
-Add an item (or type 'done'): milk
-Add an item (or type 'done'): bread
-Add an item (or type 'done'): done
-
-Your cart:
-1. apple
-2. milk
-3. bread
-
-# Challenge 4
-
-You're playing a video game and you have 5 lives.
-
-Every time you get hit, you lose one life.
-
-Your job:
-1. Make a list with 5 hearts: ["❤️", "❤️", "❤️", "❤️", "❤️"]
-2. Keep asking the player "Did you get hit? (yes/no):"
-3. If they say "yes", remove one heart from the end of the list
-4. Print how many hearts are left
-5. If all the hearts are gone, print "Game Over!" and end the game
-
-Hint: Use .pop() to remove the last item from a list
-
-Example:
-Hearts: ['❤️', '❤️', '❤️', '❤️', '❤️']
-Did you get hit? (yes/no): yes
-Hearts: ['❤️', '❤️', '❤️', '❤️']
-Did you get hit? (yes/no): yes
-Hearts: ['❤️', '❤️', '❤️']
-Did you get hit? (yes/no): no
-Did you get hit? (yes/no): yes
-Hearts: ['❤️', '❤️']
-Did you get hit? (yes/no): yes
-Hearts: ['❤️']
-Did you get hit? (yes/no): yes
-Hearts: []
-Game Over!
-
-# Challenge 5
+# Challenge 5(already completed)
 
 Right now your Tic-Tac-Toe game has a problem.
 
@@ -107,7 +24,7 @@ That spot is taken! Try again.
 O, pick a spot (0-8): 2
 (O goes in spot 2)
 
-# Challenge 6 (bonus question)
+# Challenge 6 (already completed)
 
 Continue from where you left off in the tic tac toe game you created, now you have to track wins
 
@@ -142,4 +59,46 @@ _ | _ | X       X | _ | _
 Check: board[0], board[4], board[8]
 Check: board[2], board[4], board[6]
 
-# Challenge 15
+# Challenge 6
+
+
+
+# Challenge 7
+
+Challenge X — Make a print_board() function
+Right now, every time you want to show the board, you have to write these 3 lines:
+```
+print(board[0] + " | " + board[1] + " | " + board[2])
+print(board[3] + " | " + board[4] + " | " + board[5])
+print(board[6] + " | " + board[7] + " | " + board[8])
+```
+That's a lot of typing every turn! A function lets you bundle those 3 lines together, give them a name, and then just CALL the name whenever you want to use them.
+Your task:
+
+Create a function called print_board() that prints the full board (all 3 rows).
+In your while loop, DELETE those 3 print lines and replace them with a single call: print_board()
+Run your game and make sure it works exactly the same as before.
+
+Starter hint:
+
+def print_board():
+    # put the 3 print lines in here
+
+And then in the same while loop, it should look like
+while turns < 9:
+    print_board()
+
+# Challenge 8 (🔥BONUS CHALLENGE)
+
+Refactor the Win Check (HARD)
+Task: Right now your win check uses 8 separate if statements. That's a LOT of repeated code. Can you make it shorter by using a list?
+Hint 1: Make a list of lists where each inner list is a winning combo. Example:
+pythonwins = [
+    [0, 1, 2],  # top row
+    [3, 4, 5],  # middle row
+    # ... fill in the rest (there are 8 total)
+]
+Hint 2: Use a for loop to go through each combo in wins. Inside the loop, check if board[combo[0]], board[combo[1]], and board[combo[2]] are all equal to current_symbol.
+Hint 3: If you find a winner inside the loop, set a variable like winner = current_symbol and use break to stop the loop.
+Why this matters: This is called refactoring — making code shorter and cleaner without changing what it does. Real developers do this constantly. You're turning 8 repeated blocks into 1 loop. That's a huge skill.
+Success criteria: Your game works EXACTLY the same as before, but the win-check section is way shorter.
