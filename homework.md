@@ -67,9 +67,14 @@ https://www.youtube.com/watch?v=VchuKL44s6E
 From that video watch these sections:
 
 01:00:33 — Functions ⭐ (most important, main concept this week)
+
 00:46:02 — While Loops (quick refresher, he just used them)
+
 00:54:29 — Dicts (next concept coming up, get him familiar early)
+
 01:10:42 — Exceptions + 01:11:28 — Handling Exceptions (watch together, helps with debugging)
+
+Also, do as much research online. Your goal should be to master functions. We're going to be using functions a lot. 
 
 # Challenge 8
 
@@ -87,11 +92,16 @@ Use the function to tell them if their guess was too high, too low, or correct.
 When they get it right, print how many tries it took them.
 
 Expected output:
+
 Guess the number: 5
+
 Too low!
 Guess the number: 9
+
 Too high!
+
 Guess the number: 7
+
 
 # Challenge 9
 
