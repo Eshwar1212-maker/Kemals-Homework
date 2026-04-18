@@ -91,7 +91,9 @@ while turns < 9:
 # Challenge 8 (🔥BONUS CHALLENGE)
 
 Refactor the Win Check (HARD)
+
 Task: Right now your win check uses 8 separate if statements. That's a LOT of repeated code. Can you make it shorter by using a list?
+
 Hint 1: Make a list of lists where each inner list is a winning combo. Example:
 pythonwins = [
     [0, 1, 2],  # top row
@@ -99,6 +101,8 @@ pythonwins = [
     # ... fill in the rest (there are 8 total)
 ]
 Hint 2: Use a for loop to go through each combo in wins. Inside the loop, check if board[combo[0]], board[combo[1]], and board[combo[2]] are all equal to current_symbol.
+
 Hint 3: If you find a winner inside the loop, set a variable like winner = current_symbol and use break to stop the loop.
 Why this matters: This is called refactoring — making code shorter and cleaner without changing what it does. Real developers do this constantly. You're turning 8 repeated blocks into 1 loop. That's a huge skill.
+
 Success criteria: Your game works EXACTLY the same as before, but the win-check section is way shorter.
