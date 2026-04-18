@@ -96,6 +96,7 @@ Expected output:
 Guess the number: 5
 
 Too low!
+
 Guess the number: 9
 
 Too high!
