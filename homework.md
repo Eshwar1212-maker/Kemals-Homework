@@ -59,11 +59,41 @@ _ | _ | X       X | _ | _
 Check: board[0], board[4], board[8]
 Check: board[2], board[4], board[6]
 
-# Challenge 6
-
-
-
 # Challenge 7
+Watch these sections with the Tech with Tim video that you have. I will link it right over here:
+
+https://www.youtube.com/watch?v=VchuKL44s6E
+
+From that video watch these sections:
+
+01:00:33 — Functions ⭐ (most important, main concept this week)
+00:46:02 — While Loops (quick refresher, he just used them)
+00:54:29 — Dicts (next concept coming up, get him familiar early)
+01:10:42 — Exceptions + 01:11:28 — Handling Exceptions (watch together, helps with debugging)
+
+# Challenge 8
+
+Challenge — Guess the Number Game
+
+Write a program that picks a secret number (just hardcode it, like secret = 7) and lets the user keep guessing until they get it right.
+Your task:
+
+Write a function called check_guess(guess, secret) that returns "too high", "too low", or "correct".
+
+In a while loop, keep asking the user to guess until they get it right.
+
+Use the function to tell them if their guess was too high, too low, or correct.
+
+When they get it right, print how many tries it took them.
+
+Expected output:
+Guess the number: 5
+Too low!
+Guess the number: 9
+Too high!
+Guess the number: 7
+
+# Challenge 9
 
 Challenge X — Make a print_board() function
 Right now, every time you want to show the board, you have to write these 3 lines:
@@ -88,7 +118,7 @@ And then in the same while loop, it should look like
 while turns < 9:
     print_board()
 
-# Challenge 8 (🔥BONUS CHALLENGE)
+# Challenge 10 (🔥BONUS CHALLENGE)
 
 Refactor the Win Check (HARD)
 
