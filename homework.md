@@ -1,5 +1,22 @@
 # Week 3 - Hangman
 
+## Use these sections in the Tech With Tim Video, reference them if you get stuck as well during the challenges
+
+https://www.youtube.com/watch?v=VchuKL44s6E
+
+1. 00:41:32 — For Loops
+
+→ Needed for Challenge 1 (looping through the string "python") AND Challenge 4 (looping through the secret word to print underscores)
+
+2. 00:22:19 — Conditional Operators
+→ Needed for Challenge 2 — this is where the in keyword lives (if letter in word:)
+
+3. 00:46:02 — While Loops
+→ Needed for Challenge 3 (keep asking for letters until they type "done")
+
+4. 00:35:41 — List/Tuples
+→ Needed for Challenge 3 (.append() to add letters to the list)
+
 # Challenge 1 — Loop Through a String
 
 A string is just a list of letters! You can loop through it just like a list.
